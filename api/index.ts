@@ -12,7 +12,8 @@ type listApi = {
     musicChart: String,
     coupleShip: String,
     characters: characters,
-    ostSongs: ostSongs
+    ostSongs: ostSongs,
+    topAnime: String
 }
 interface Data {
     listApi: listApi,
@@ -33,7 +34,8 @@ export default (_, response: NowResponse) => {
             ostSongs: {
                 openingSong: "https://anitop.vercel.app/api/v1/opening-song",
                 endingSong: "https://anitop.vercel.app/api/v1/ending-song"
-            }
+            },
+            topAnime: "https://anitop.vercel.app/api/v1/top-anime"
         },
         note: "Every endpoint API has a query params named limit and type data of limit is number",
         author: "Satya Wikananda",
