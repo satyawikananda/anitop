@@ -1,0 +1,7 @@
+export const URL_MUSIC_CHART: string = "https://anitrendz.net/shuffle"
+export const URL_TOP_ANIME: string = "https://anitrendz.net/charts/top-anime/"
+export const URL_MALE_CHARACTERS: string = "https://anitrendz.net/charts/male-characters/"
+export const URL_FEMALE_CHARACTERS: string = "https://anitrendz.net/charts/female-characters/"
+export const URL_COUPLE_SHIP: string = "https://anitrendz.net/charts/couple-ship/"
+export const URL_OPENING_SONG: string = "https://anitrendz.net/charts/op-theme-songs/"
+export const URL_ENDING_SONG: string = "https://anitrendz.net/charts/ed-theme-songs/"

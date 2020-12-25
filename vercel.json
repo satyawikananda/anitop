@@ -1,0 +1,27 @@
+{
+    "redirects": [
+        {
+            "source": "/",
+            "destination": "https://anitop.vercel.app/api"
+        }
+    ],
+    "headers": [
+        {
+            "source": "/(.*)",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, s-maxage=60, stale-while-revalidate"
+                },
+                {
+                    "key": "Access-Control-Allow-Origin",
+                    "value": "*"
+                },
+                {
+                    "key": "Accept",
+                    "value": "application/json"
+                }
+            ]
+        }
+    ]
+}
