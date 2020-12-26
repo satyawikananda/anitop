@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Anitop Unofficial API</h1>
+<h1>Anitop: Anitrendz Unofficial API</h1>
 
 <p>Get the current data of anime trending just from the API</p>
 
