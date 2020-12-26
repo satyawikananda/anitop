@@ -3,12 +3,9 @@
 
 <p>Get the current data of anime trending just from the API</p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://raw.githubusercontent.com/satyawikananda/anitop/main/LICENSE?token=AH44ZFCECOH3C2ATJJKGDFK7545TK)
-[![Issue](https://img.shields.io/github/issues/satyawikananda/anitop)](https://img.shields.io/github/issues/satyawikananda/anitop)
-[![Forks](https://img.shields.io/github/forks/satyawikananda/anitop)](https://img.shields.io/github/forks/satyawikananda/anitop)
-[![Stars](https://img.shields.io/github/stars/satyawikananda/anitop)](https://img.shields.io/github/stars/satyawikananda/anitop)
-
 </div>
+
+![anitop](https://socialify.git.ci/satyawikananda/anitop/image?description=1&descriptionEditable=Anitop%20is%20an%20unofficial%20simple%20API%20from%20https%3A%2F%2Fanitrendz.net%2F%20site%20%7C%20Get%20the%20current%20data%20of%20anime%20trending%20just%20from%20the%20API&font=Raleway&forks=1&issues=1&language=1&logo=https%3A%2F%2Fanitrendz.net%2Fregular%2Fmain%2Fimages%2Flogos%2Flogo_2.png&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Light)
 
 # Description
 
