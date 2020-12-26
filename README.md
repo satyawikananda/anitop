@@ -24,7 +24,7 @@ For the tech stack, Anitop was using :
 6. and many utilities
 
 # List routes Anitop API
-For now, Anitop has a seven routes to get the current data of anime trending and each routes, that is has a one query params named `limit`, that query params can make a limitation display data and the value is a type data number
+For now, Anitop has a seven routes to get the current data of anime trending and each endpoints, that is has a one query params named `limit`, that query params can make a limitation display data and the value is a type data number
 
 | Name API | Description | Route | 
 |----------|------------ | ---------|
