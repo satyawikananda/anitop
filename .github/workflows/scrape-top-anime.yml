@@ -6,7 +6,7 @@ on:
       - main
   workflow_dispatch:
   schedule:
-    - cron: "0 18 * * WED"
+    - cron: "0 12 */2 * *"
 
 jobs:
   start_scrape:
