@@ -9,7 +9,7 @@
 
 # Description
 
-Anitop is an open source project and simple unofficail API from [Anitrendz's](https://anitrendz.net/) site to get the current data of anime trending. For the datas was scrapped from many pages in menu charts in that website, for the routes, you can see it below.
+Anitop is an open source project and simple unofficial API from [Anitrendz's](https://anitrendz.net/) site to get the current data of anime trending. For the datas was scrapped from many pages in menu charts in that website, for the routes, you can see it below.
 
 # Tech Stack
 For the tech stack, Anitop was using :
