@@ -14,9 +14,9 @@ Anitop is an open source project and simple unofficial API from [Anitrendz's](ht
 # Tech Stack
 For the tech stack, Anitop was using :
 1. Typescript
-2. Node JS
+2. NodeJS
 3. Axios
-4. Cherrio
+4. Cheerio
 5. Vercel
 6. and many utilities
 
