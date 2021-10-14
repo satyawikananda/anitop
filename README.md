@@ -16,7 +16,7 @@ For the tech stack, Anitop was using :
 1. Typescript
 2. Node JS
 3. Axios
-4. Cherrio
+4. Cheerio
 5. Vercel
 6. and many utilities
 
