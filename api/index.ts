@@ -1,4 +1,4 @@
-import { NowResponse } from "@vercel/node"
+import { VercelResponse } from "@vercel/node"
 
 type characters = {
     maleCharacter: String,
@@ -22,7 +22,7 @@ interface Data {
     source: String
 }
 
-export default (_, response: NowResponse) => {
+export default (_, response: VercelResponse) => {
     const data: Data = {
         listApi: {
             musicChart: "https://anitop.vercel.app/api/v1/music-chart",

@@ -1,16 +1,19 @@
-import { NowRequest, NowResponse } from "@vercel/node"
+import { VercelRequest, VercelResponse } from "@vercel/node"
 import { join } from "path"
-import { promises as fsPromises } from 'fs';
+import { readFile } from 'fs/promises';
 import { Data } from "../../../types/common"
 
-const fileData = join(__dirname, '..', '..', '..', 'data/', 'couple.json')
+// const fileData = join(__dirname, '..', '..', '..', 'data/', 'couple.json')
+const fileData = join(process.cwd(), 'data/couple.json')
+console.log(fileData)
 
-export default async (request: NowRequest, response:NowResponse) => {
+
+export default async (request: VercelRequest, response:VercelResponse) => {
     const { limit }: any = request.query
-    const readData = await fsPromises.readFile(fileData, 'utf-8')
+    const readData = await readFile(fileData, 'utf-8')
     const couple = JSON.parse(readData)
     let result = couple.slice(0, limit)
-    const data:Data = {
+    const data: Data = {
         code: response.statusCode,
         message: "List of coupleships trending data",
         totalItems: limit === undefined 
