@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: npm i -g yarn && yarn install
       - name: Start scrape data of ending song
-        run: yarn start:ending
+        run: yarn scrape:ending
       - name: Commit and push if it changed
         run: |-
           git config user.name "satyawikananda"
