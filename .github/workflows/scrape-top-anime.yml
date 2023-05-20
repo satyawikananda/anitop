@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: npm i -g yarn && yarn install
       - name: Start scrape data of top anime
-        run: yarn start
+        run: yarn start:top-anime
       - name: Commit and push if it changed
         run: |-
           git config user.name "satyawikananda"

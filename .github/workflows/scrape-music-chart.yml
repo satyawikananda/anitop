@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: npm i -g yarn && yarn install
       - name: Start scrape data of music chart
-        run: yarn start
+        run: yarn start:music-chart
       - name: Commit and push if it changed
         run: |-
           git config user.name "satyawikananda"
