@@ -1,7 +1,7 @@
 <div align="center">
 <h1>Anitop: Anitrendz Unofficial API</h1>
 
-<p>Get the current data of anime trending just from the API</p>
+<p>Get data from current, trending Animes with an API</p>
 
 </div>
 
@@ -35,7 +35,7 @@ For now, Anitop has a seven routes to get the current data of anime trending and
 | Ending OST song | Get all the current trending data of ending OST songs | /api/v1/ending-song |
 
 # Installation
-If you want to add this project in your own machine, you can install this project by following the step below
+If you want to add this project in your own machine, you can install this project by following the steps below
 
 1. Clone this repository
 ```
@@ -43,13 +43,13 @@ git clone https://github.com/satyawikananda/anitop.git
 ```
 2. Install dependencies
 
-In my case, i'm using pnpm for package manager, you can adjust with your favorite package manager
+In my case, i'm using pnpm as my package manager, you can adjust with your favorite package manager
 
 ```
 pnpm install
 ```
 
-> To running my program, you can see object scripts in file `package.json`
+> To run my program, you can see object scripts in file `package.json`
 
 # Showcase
 If you use this API to your project application, you can register your project in this showcase below :
