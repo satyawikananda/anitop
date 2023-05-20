@@ -53,7 +53,7 @@ pnpm install
 
 # Showcase
 If you use this API to your project application, you can register your project in this showcase below :
-
+- https://github.com/kawago2/ANews
 
 # Contribution
 Want to make this project better? You can contribute this project, I am very open if there are contributions to this project.
